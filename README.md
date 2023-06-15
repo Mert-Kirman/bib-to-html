@@ -1,12 +1,12 @@
 # Bib To HTML Converter
 
-Python program that checks if a given .bib file is in correct format and converts it to a .html file. 
+Python program that checks if a given .bib file is in correct format and converts it to a .html file.
 
 ## How It Works
 
-The program takes a .bib file name from the user in the console. Then it checks multiple criteria to confirm given .bib file
+The program takes a .bib file name from the user in the console. Then it checks multiple criteria to confirm given .bib
 
-is in correct format. Some criteria include but are not limited to:
+file is in correct format. Some criteria include but are not limited to:
 
 - Each item should have a non-empty unique key UNIQKEY which may only contain alphanumeric characters.
 
@@ -16,9 +16,9 @@ is in correct format. Some criteria include but are not limited to:
 
 - Every item has to contain the fields "author", "title", "journal", "year" and "volume".
 
-After checking the format python code proceeds to write the .bib file contents inside the .html file. A general form of the
+After checking the format python code proceeds to write the .bib file contents inside the .html file. A general form
 
-output is as follows:
+of the output is as follows:
 
 ```html
 
@@ -37,7 +37,7 @@ An IDE or text editor to run the python code.
 
 ## Running the tests
 
-Enter the name of the .bib file you want to convert into .html file in the console. The .bib file should be in the same folder
+Enter the name of the .bib file you want to convert into .html file in the console. The .bib file should be in the
 
-as the source code.
+same folder as the source code.
 
